@@ -2,20 +2,20 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-night.png">
-  <img alt="nud-diagnostico-de-riscos — de um inventário SIPOC-R ao diagnóstico consolidado de riscos e oportunidades" src="assets/banner-day.png">
+  <img alt="nud-diagnostico-de-riscos — de um inventário SIPOC-R à análise consolidada de riscos e oportunidades" src="assets/banner-day.png">
 </picture>
 
 # nud-diagnóstico-de-riscos
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-Uma **skill para Claude** (Anthropic) que parte de um Inventário de Processos SIPOC-R e produz a
-**análise consolidada de riscos**: matriz priorizada, causa-raiz, pareamento com mitigações e
-**visão executiva**. É o par analítico da skill **[nud-inventário-processos](https://github.com/whatevertr/skill-nud-inventario-processos)**.
+Esta é uma **skill que eu fiz para o Claude** (Anthropic) que parte de um Inventário de Processos SIPOC-R e produz a **análise consolidada de riscos e oportunidades**: matriz priorizada, pareamento com mitigações e **visão executiva**. É o par analítico da skill **[nud-inventário-processos](https://github.com/whatevertr/skill-nud-inventario-processos)** — fiz as duas para o meu próprio trabalho de processos e uso juntas.
 
 Faz parte do **NUD | Constellation Method**, de Thainá Ramos.
 
-> **Compatibilidade:** empacotada como **Claude Skill** (formato Agent Skills da Anthropic — aciona sozinha no Claude Code / claude.ai). O **método é agnóstico de modelo**: o mesmo conteúdo funciona em **qualquer LLM de chat** colando o `SKILL.md` + `references/` como contexto, e o `builder.py` roda em **qualquer Python** (ex.: Code Interpreter do ChatGPT).
+> **Como eu uso & compatibilidade:** empacotei como **Claude Skill** (formato Agent Skills da Anthropic, então aciona sozinha no Claude Code / claude.ai). É **projetada para ser agnóstica de modelo** — o método é só `SKILL.md` + `references/`, então também colo como contexto em outros LLMs de chat, e o `builder.py` é Python puro. Tudo que precisa pra instalar e rodar está neste repositório, e eu sigo melhorando isso pra ficar fácil de pegar.
+>
+> **Sobre evidência, com honestidade:** o que eu garanto é o meu uso — funciona pra mim. Você consegue reproduzir a saída a partir do repositório. O quanto o *método* generaliza além dos meus casos é algo que eu ainda estou aprendendo, e eu ia adorar teu retorno se você testar.
 
 ---
 
@@ -27,8 +27,8 @@ Engloba tudo o que a skill base **nud-inventário-processos** faz (montar o inve
   classificação, tipo de impacto e **prioridade de atuação**.
 - **Aba "Legendas"** — os critérios de nível, classificação e prioridade, **definidos conforme o
   contexto do processo** (não são fixos) e documentados no próprio arquivo.
-- Clusterização, priorização e identificação de **causa-raiz** dos riscos.
-- Pareamento de cada risco com a **mitigação** correspondente.
+- Clusterização e priorização dos riscos.
+- Pareamento de cada risco com a **oportunidade de melhoria** correspondente.
 
 Quando usar só o mapa (sem a análise de risco), use a skill base
 **[nud-inventário-processos](https://github.com/whatevertr/skill-nud-inventario-processos)**.

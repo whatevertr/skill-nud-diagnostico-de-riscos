@@ -2,18 +2,20 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-night.png">
-  <img alt="nud-diagnostico-de-riscos — a SIPOC-R inventory into a consolidated risks and opportunities diagnosis" src="assets/banner-day.png">
+  <img alt="nud-diagnostico-de-riscos — a SIPOC-R inventory into a consolidated risks and opportunities analysis" src="assets/banner-day.png">
 </picture>
 
 # nud-diagnostico-de-riscos
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-A **skill for Claude** (Anthropic) that starts from a SIPOC-R Process Inventory and produces the **consolidated risk analysis**: prioritized matrix, root cause, pairing with mitigations and an **executive view**. It is the analytical counterpart of **[nud-inventario-processos](https://github.com/whatevertr/skill-nud-inventario-processos)**.
+This is a **skill I built for Claude** (Anthropic) that starts from a SIPOC-R Process Inventory and produces a **consolidated risk-and-opportunity analysis**: prioritized matrix, pairing with mitigations and an **executive view**. It's the analytical counterpart of **[nud-inventario-processos](https://github.com/whatevertr/skill-nud-inventario-processos)** — I built both for my own process work and use them together.
 
 Part of the **NUD | Constellation Method**, by Thainá Ramos.
 
-> **Compatibility:** packaged as a **Claude Skill** (Anthropic's Agent Skills format — it triggers on its own in Claude Code / claude.ai). The **method is model-agnostic**: the same content works in **any chat LLM** by pasting `SKILL.md` + `references/` as context, and `builder.py` runs on **any Python** (e.g. ChatGPT's Code Interpreter).
+> **How I use it & compatibility:** I package it as a **Claude Skill** (Anthropic's Agent Skills format, so it triggers on its own in Claude Code / claude.ai). It's **designed to be model-agnostic** — the method is just `SKILL.md` + `references/`, so I also paste it as context into other chat LLMs, and `builder.py` is plain Python. Everything needed to install and run is in this repo, and I keep improving that so it's easy to pick up.
+>
+> **On evidence, honestly:** what I can vouch for is my own use — it works for me. You can reproduce the output yourself from the repo. How well the *method* generalizes beyond my cases is something I'm still learning, and I'd love to hear from you if you test it.
 
 ---
 
@@ -23,8 +25,8 @@ It covers everything the base skill **nud-inventario-processos** does (building 
 
 - **"Risks and Opportunities Summary" tab** — the inventory's risks consolidated, with level, classification, impact type and **action priority**.
 - **"Legends" tab** — the criteria for level, classification and priority, **defined according to the process context** (not fixed) and documented in the file itself.
-- Clustering, prioritization and **root-cause** identification of the risks.
-- Pairing each risk with its matching **mitigation**.
+- Clustering and prioritization of the risks.
+- Pairing each risk with its matching **opportunity for improvement**.
 
 When you only need the map (without the risk analysis), use the base skill **[nud-inventario-processos](https://github.com/whatevertr/skill-nud-inventario-processos)**.
 
