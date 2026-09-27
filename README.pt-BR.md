@@ -9,7 +9,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-Esta é uma **skill que eu fiz para o Claude** (Anthropic) que parte de um Inventário de Processos SIPOC-R e produz a **análise consolidada de riscos e oportunidades**: matriz priorizada, pareamento com mitigações e **visão executiva**. É o par analítico da skill **[nud-inventário-processos](https://github.com/whatevertr/skill-nud-inventario-processos)** — fiz as duas para o meu próprio trabalho de processos e uso juntas.
+Esta é uma **skill que eu fiz para o Claude** (Anthropic) que parte de um Inventário de Processos SIPOC-R e produz a **análise consolidada de riscos e oportunidades**: matriz priorizada, pareamento com mitigações e **visão executiva**. É o par analítico da skill **[nud-inventário-processos](https://github.com/whatevertr/skill-whatevertr-inventario-processos)** — fiz as duas para o meu próprio trabalho de processos e uso juntas.
 
 Faz parte do **NUD | Constellation Method**, de Thainá Ramos.
 
@@ -31,7 +31,7 @@ Engloba tudo o que a skill base **nud-inventário-processos** faz (montar o inve
 - Pareamento de cada risco com a **oportunidade de melhoria** correspondente.
 
 Quando usar só o mapa (sem a análise de risco), use a skill base
-**[nud-inventário-processos](https://github.com/whatevertr/skill-nud-inventario-processos)**.
+**[nud-inventário-processos](https://github.com/whatevertr/skill-whatevertr-inventario-processos)**.
 
 ## Estrutura
 

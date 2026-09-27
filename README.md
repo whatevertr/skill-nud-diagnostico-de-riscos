@@ -9,7 +9,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-This is a **skill I built for Claude** (Anthropic) that starts from a SIPOC-R Process Inventory and produces a **consolidated risk-and-opportunity analysis**: prioritized matrix, pairing with mitigations and an **executive view**. It's the analytical counterpart of **[nud-inventario-processos](https://github.com/whatevertr/skill-nud-inventario-processos)** — I built both for my own process work and use them together.
+This is a **skill I built for Claude** (Anthropic) that starts from a SIPOC-R Process Inventory and produces a **consolidated risk-and-opportunity analysis**: prioritized matrix, pairing with mitigations and an **executive view**. It's the analytical counterpart of **[nud-inventario-processos](https://github.com/whatevertr/skill-whatevertr-inventario-processos)** — I built both for my own process work and use them together.
 
 Part of the **NUD | Constellation Method**, by Thainá Ramos.
 
@@ -28,7 +28,7 @@ It covers everything the base skill **nud-inventario-processos** does (building 
 - Clustering and prioritization of the risks.
 - Pairing each risk with its matching **opportunity for improvement**.
 
-When you only need the map (without the risk analysis), use the base skill **[nud-inventario-processos](https://github.com/whatevertr/skill-nud-inventario-processos)**.
+When you only need the map (without the risk analysis), use the base skill **[nud-inventario-processos](https://github.com/whatevertr/skill-whatevertr-inventario-processos)**.
 
 ## Structure
 
