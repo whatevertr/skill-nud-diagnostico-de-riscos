@@ -2,14 +2,14 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-night.png">
-  <img alt="nud-diagnostico-de-riscos — de um inventário SIPOC-R à análise consolidada de riscos e oportunidades" src="assets/banner-day.png">
+  <img alt="whatevertr-diagnostico-de-riscos — de um inventário SIPOC-R à análise consolidada de riscos e oportunidades" src="assets/banner-day.png">
 </picture>
 
-# nud-diagnóstico-de-riscos
+# whatevertr-diagnóstico-de-riscos
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-Esta é uma **skill que eu fiz para o Claude** (Anthropic) que parte de um Inventário de Processos SIPOC-R e produz a **análise consolidada de riscos e oportunidades**: matriz priorizada, pareamento com mitigações e **visão executiva**. É o par analítico da skill **[nud-inventário-processos](https://github.com/whatevertr/skill-whatevertr-inventario-processos)** — fiz as duas para o meu próprio trabalho de processos e uso juntas.
+Esta é uma **skill que eu fiz para o Claude** (Anthropic) que parte de um Inventário de Processos SIPOC-R e produz a **análise consolidada de riscos e oportunidades**: matriz priorizada, pareamento com mitigações e **visão executiva**. É o par analítico da skill **[whatevertr-inventário-processos](https://github.com/whatevertr/skill-whatevertr-inventario-processos)** — fiz as duas para o meu próprio trabalho de processos e uso juntas.
 
 Faz parte do **NUD | Constellation Method**, de Thainá Ramos.
 
@@ -21,7 +21,7 @@ Faz parte do **NUD | Constellation Method**, de Thainá Ramos.
 
 ## O que ela faz
 
-Engloba tudo o que a skill base **nud-inventário-processos** faz (montar o inventário) e acrescenta:
+Engloba tudo o que a skill base **whatevertr-inventário-processos** faz (montar o inventário) e acrescenta:
 
 - **Aba "Resumo de Riscos e Oportunidades"** — os riscos do inventário consolidados, com nível,
   classificação, tipo de impacto e **prioridade de atuação**.
@@ -31,12 +31,12 @@ Engloba tudo o que a skill base **nud-inventário-processos** faz (montar o inve
 - Pareamento de cada risco com a **oportunidade de melhoria** correspondente.
 
 Quando usar só o mapa (sem a análise de risco), use a skill base
-**[nud-inventário-processos](https://github.com/whatevertr/skill-whatevertr-inventario-processos)**.
+**[whatevertr-inventário-processos](https://github.com/whatevertr/skill-whatevertr-inventario-processos)**.
 
 ## Estrutura
 
 ```
-nud-diagnostico-de-riscos/
+whatevertr-diagnostico-de-riscos/
 ├── SKILL.md                         # instruções da skill
 ├── assets/
 │   ├── Modelo_Inventario_Processos.xlsx   # molde-base que o builder semeia (Fase 5)
@@ -48,7 +48,7 @@ nud-diagnostico-de-riscos/
 
 ## Como instalar
 
-Copie a pasta `nud-diagnostico-de-riscos/` para o diretório de skills do seu Claude
+Copie a pasta `whatevertr-diagnostico-de-riscos/` para o diretório de skills do seu Claude
 (`.claude/skills/`) e a skill passa a ser acionada pelos gatilhos descritos no `SKILL.md`.
 
 ## Exemplo

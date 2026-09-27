@@ -2,14 +2,14 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-night.png">
-  <img alt="nud-diagnostico-de-riscos — a SIPOC-R inventory into a consolidated risks and opportunities analysis" src="assets/banner-day.png">
+  <img alt="whatevertr-diagnostico-de-riscos — a SIPOC-R inventory into a consolidated risks and opportunities analysis" src="assets/banner-day.png">
 </picture>
 
-# nud-diagnostico-de-riscos
+# whatevertr-diagnostico-de-riscos
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-This is a **skill I built for Claude** (Anthropic) that starts from a SIPOC-R Process Inventory and produces a **consolidated risk-and-opportunity analysis**: prioritized matrix, pairing with mitigations and an **executive view**. It's the analytical counterpart of **[nud-inventario-processos](https://github.com/whatevertr/skill-whatevertr-inventario-processos)** — I built both for my own process work and use them together.
+This is a **skill I built for Claude** (Anthropic) that starts from a SIPOC-R Process Inventory and produces a **consolidated risk-and-opportunity analysis**: prioritized matrix, pairing with mitigations and an **executive view**. It's the analytical counterpart of **[whatevertr-inventario-processos](https://github.com/whatevertr/skill-whatevertr-inventario-processos)** — I built both for my own process work and use them together.
 
 Part of the **NUD | Constellation Method**, by Thainá Ramos.
 
@@ -21,19 +21,19 @@ Part of the **NUD | Constellation Method**, by Thainá Ramos.
 
 ## What it does
 
-It covers everything the base skill **nud-inventario-processos** does (building the inventory) and adds:
+It covers everything the base skill **whatevertr-inventario-processos** does (building the inventory) and adds:
 
 - **"Risks and Opportunities Summary" tab** — the inventory's risks consolidated, with level, classification, impact type and **action priority**.
 - **"Legends" tab** — the criteria for level, classification and priority, **defined according to the process context** (not fixed) and documented in the file itself.
 - Clustering and prioritization of the risks.
 - Pairing each risk with its matching **opportunity for improvement**.
 
-When you only need the map (without the risk analysis), use the base skill **[nud-inventario-processos](https://github.com/whatevertr/skill-whatevertr-inventario-processos)**.
+When you only need the map (without the risk analysis), use the base skill **[whatevertr-inventario-processos](https://github.com/whatevertr/skill-whatevertr-inventario-processos)**.
 
 ## Structure
 
 ```
-nud-diagnostico-de-riscos/
+whatevertr-diagnostico-de-riscos/
 ├── SKILL.md                         # skill instructions
 ├── assets/
 │   ├── Modelo_Inventario_Processos.xlsx   # base model the builder seeds from (Phase 5)
@@ -45,7 +45,7 @@ nud-diagnostico-de-riscos/
 
 ## Install
 
-Copy the `nud-diagnostico-de-riscos/` folder into your Claude skills directory (`.claude/skills/`) and the skill starts triggering on the cues described in `SKILL.md`.
+Copy the `whatevertr-diagnostico-de-riscos/` folder into your Claude skills directory (`.claude/skills/`) and the skill starts triggering on the cues described in `SKILL.md`.
 
 ## Example
 
